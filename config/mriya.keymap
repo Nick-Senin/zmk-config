@@ -40,7 +40,7 @@
   &kp LG(ESCAPE)  &none      &none                         &none      &none                      &none                  &trans             &trans            &trans              &trans             &trans  &trans
   &kp LG(TAB)     &kp LC(W)  &mt LG(LC(LEFT)) LC(LS(TAB))  &kp UP     &mt LG(LC(RIGHT)) LC(TAB)  &kp LC(F5)             &trans             &kp LA(LC(LEFT))  &trans              &kp LC(LA(RIGHT))  &trans  &trans
   &kp BACKSPACE   &kp EXCL   &kp LEFT                      &kp DOWN   &kp RIGHT                  &kp LC(PRINTSCREEN)    &kp LC(LEFT)       &kp LC(UP_ARROW)  &kp LC(DOWN_ARROW)  &kp LC(RIGHT)      &trans  &kp LS(LC(DELETE))
-  &trans          &kp LC(A)  &kp LC(X)                     &kp LC(C)  &kp LC(V)                  &kp DELETE             &kp LC(LS(H))      &kp LC(LS(M))     &kp LS(LC(F))       &trans             &trans  &trans
+  &trans          &kp LC(A)  &kp LC(X)                     &trans     &kp LC(V)                  &kp DELETE             &kp LC(LS(H))      &kp LC(LS(M))     &kp LS(LC(F))       &trans             &trans  &trans
                              &mo 3                         &lt 3 TAB  &trans                     &trans                 &kp LA(LC(ENTER))  &kp LC(O)         &none               &trans
             >;
         };
