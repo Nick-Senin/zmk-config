@@ -23,11 +23,11 @@
 
         default_layer {
             bindings = <
-  &kp ESCAPE         &kp N1  &kp N2            &kp N3        &kp N4  &kp N5       &kp N6     &kp N7  &kp N8          &kp N9   &kp N0    &kp MINUS
-  &kp TAB            &kp Q   &kp W             &kp E         &kp R   &kp T        &kp Y      &kp U   &kp I           &kp O    &kp P     &kp LBKT
-  &kp LC(BACKSPACE)  &kp A   &kp S             &kp D         &kp F   &kp G        &kp H      &kp J   &kp K           &kp L    &kp SEMI  &kp SINGLE_QUOTE
-  &kp LEFT_SHIFT     &kp Z   &kp X             &kp C         &kp V   &kp B        &kp N      &kp M   &kp COMMA       &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
-                             &kp LEFT_CONTROL  &kp LEFT_ALT  &mo 1   &kp SPACE    &kp ENTER  &mo 2   &kp LANGUAGE_1  &mo 3
+  &kp ESCAPE         &kp N1  &kp N2            &kp N3        &kp N4  &kp N5       &kp N6     &kp N7  &kp N8                &kp N9   &kp N0    &kp MINUS
+  &kp TAB            &kp Q   &kp W             &kp E         &kp R   &kp T        &kp Y      &kp U   &kp I                 &kp O    &kp P     &kp LBKT
+  &kp LC(BACKSPACE)  &kp A   &kp S             &kp D         &kp F   &kp G        &kp H      &kp J   &kp K                 &kp L    &kp SEMI  &kp SINGLE_QUOTE
+  &kp LEFT_SHIFT     &kp Z   &kp X             &kp C         &kp V   &kp B        &kp N      &kp M   &kp COMMA             &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
+                             &kp LEFT_CONTROL  &kp LEFT_ALT  &mo 1   &kp SPACE    &kp ENTER  &mo 2   &kp LS(LEFT_CONTROL)  &mo 3
             >;
         };
 
@@ -57,7 +57,7 @@
   &bt BT_SEL 0  &none  &none         &kp LG(UP)    &none          &none            &none   &kp LS(LG(U))      &kp LS(LG(I))     &kp LS(LG(O))    &none  &none
   &bt BT_SEL 1  &none  &kp LG(LEFT)  &kp LG(DOWN)  &kp LG(RIGHT)  &none            &none   &kp LS(LG(J))      &kp LS(LG(K))     &kp LS(LG(L))    &none  &none
   &bt BT_SEL 2  &none  &none         &kp LG(D)     &none          &none            &none   &kp C_VOLUME_DOWN  &none             &kp C_VOLUME_UP  &none  &none
-                       &none         &trans        &none          &kp LG(ENTER)    &trans  &none              &kp LANGUAGE_2    &none
+                       &none         &trans        &none          &kp LG(ENTER)    &trans  &none              &none             &none
             >;
         };
     };
